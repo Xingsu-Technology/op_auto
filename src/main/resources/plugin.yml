@@ -1,0 +1,24 @@
+name: OpAuto
+version: 1.2
+main: _8b1t.op_auto.OpAuto
+api-version: 1.21.1
+commands:
+  startop:
+    description: 设置op密码
+    usage: /startop <password>
+    permission: opauto.set
+  giveop:
+    description: 验证op密码，密码正确您将获得op
+    usage: /giveop <password> [player]
+    permission: opauto.give
+permissions:
+  opauto.*:
+    children:
+      opauto.set: true
+      opauto.give: true
+  opauto.set:
+    description: Allows setting the OP password
+    default: op
+  opauto.give:
+    description: Allows giving OP to other players or yourself
+    default: true
