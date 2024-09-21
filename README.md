@@ -19,7 +19,8 @@
 
 ### 构建
 1. 下载/克隆此仓库
-2. 在仓库中运行适合您系统的构建命令
+2. 安装合适的JDK运行环境,本插件使用JDK21构建
+3. 在仓库中运行适合您系统的构建命令
    - Linux/Mac: `./gradlew build`
    - Windows: `gradlew.bat build`
-3. 构建的文件位于目录 `./build/libs` 中
+4. 构建的文件位于目录 `./build/libs` 中
