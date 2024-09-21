@@ -8,7 +8,9 @@
 | giveop | 密码  |  玩家名称  |  opauto.give  | 这条命令将校验您输入的密码,如果密码正确,您将会获得op权限并全员广播您成为了服务器管理员 |
 
 注：
+
 `opauto.set` 权限组仅控制台(Console)可用
+
 `opauto.give` 权限组全员可用
 
 ## 开发
